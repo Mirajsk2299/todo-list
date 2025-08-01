@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:5000/todos" });
+const API = axios.create({ baseURL: "https://todo-list-backend-1f5a.onrender.com" });
 
 export const getTodos = () => API.get("/");
 export const addTodo = (text) => API.post("/", { text });

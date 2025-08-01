@@ -1,0 +1,82 @@
+.main-div {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-div {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-div h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.add-input input {
+  flex: 1;
+  font-size: 1rem;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #f0f0f0;
+  outline: none;
+}
+
+.add-input button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.add-input button:hover {
+  background-color: #457947;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 0.6rem 0.8rem;
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
+}
+
+.check-box {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #4caf50;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.check-box:checked {
+  background-color: #4caf50;
+}
+
+li button {
+  padding: 0.3rem 0.7rem;
+  margin-left: 10px;
+  background-color: #e53935;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

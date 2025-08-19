@@ -16,7 +16,7 @@ mongoose
     useUnifiedTopology: true
   })
   .then(() => console.log("✅ MongoDB Atlas Connected"))
-  .catch(err => console.error("❌ MongoDB connection error:", err));
+  .catch(err => console.error(" MongoDB connection error:", err));
 
 app.use("/todos", todoRoutes);
 
@@ -25,4 +25,4 @@ app.get("/", (req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(` Server running on port ${PORT}`));

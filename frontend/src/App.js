@@ -40,6 +40,7 @@ export function App() {
     <div className="main-div" style={{backgroundImage:`url(${bgimage})`}}>
     <div className="card-div">
       <h2>To-Do List</h2>
+  <p>(Initial loading takes few seconds while the server starts. Pls Wait.) </p>
       <div className="add-input"
        style={{display:'flex', marginTop:'1.5em',marginBottom:'0.5rem', flexDirection:'row', gap:'5px'}}>
       <input
